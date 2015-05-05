@@ -1,7 +1,7 @@
 myApp.controller('RegistrationController', 
   function($scope, $firebaseAuth, $location, Authentication) {
 
-  var ref = new Firebase('https://attendanceldcapp.firebaseio.com/');
+  var ref = new Firebase('https://pabattendanceldcapp.firebaseio.com/');
   var auth = $firebaseAuth(ref);
   
   $scope.login = function() {
